@@ -1,0 +1,23 @@
+ERP System
+
+Setup Angular
+npm install -g @angular/cli
+
+Check version
+ng --version
+
+Create project
+ng new erp-project
+
+For basic project setup
+ng new erp-project --inline-template
+
+Create parent compnent
+- signin
+- employee
+- layout
+
+ng generate compnent signin
+ng g c signin
+
+Swagger
