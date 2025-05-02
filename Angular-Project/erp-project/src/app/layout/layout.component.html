@@ -1,21 +1,33 @@
 <nav class="sidebar-navigation">
 	<ul>
 		<li class="active">
-            <span>Home</span>
+            <a routerLink="/dashboard">
+                <span>Home</span>
+            </a>
 		</li>
 		<li>
-            <span>Projects</span>
+            <a routerLink="/projects">
+                <span>Projects</span>
+            </a>
 		</li>
 		<li>
-            <span>Employees</span>
+            <a routerLink="/employee">
+                <span>Employees</span>
+            </a>
 		</li>
 		<li>
-            <span>Assigned Projects</span>
+            <a routerLink="/assignedProjects">
+                <span>Assigned Projects</span>
+            </a>
 		</li>
 		<li>
-            <span>Teams</span>
+            <a routerLink="/teams">
+                <span>Teams</span>
+            </a>
 		</li>
 	</ul>
 </nav>
 
-<router-outlet></router-outlet>
+<div class="dashboard-section">
+    <router-outlet></router-outlet>
+</div>

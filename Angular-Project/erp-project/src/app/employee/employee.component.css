@@ -1,0 +1,17 @@
+table tr td {
+    /* border: 1px solid red; */
+    padding: 10px;
+    /* background-color: lightgray; */
+}
+table th {
+    background-color: darkblue;
+    padding: 10px;
+    color: #fff;
+}
+table tr:nth-child(even) {
+    background-color: black;
+    color: #fff;
+}
+table{
+    border-collapse: collapse;
+}
